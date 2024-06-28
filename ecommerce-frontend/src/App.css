@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.Wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.singleItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 5px;
+}
+input {
+  border: none;
+  outline: none;
+  border-bottom: 0.2em solid #131312;
+  border-radius: 0.2em 0.2em 0 0;
+  padding: 0.4em;
+}
+.products {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  display: block;
+  color: brown;
+}
+.singleItem button {
+  padding: 0.4rem;
+  background-color: bisque;
+}
+
+.cart {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+th,
+td {
+  padding: 20px 10px;
+}
+.details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.details button {
+  background-color: blanchedalmond;
+  padding: 9px;
+}
+th {
+  color: blue;
+}
+
+.products > h1,
+.cart > h1,
+.details > h1 {
+  padding-bottom: 20px;
+}
+
+.message-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  gap: 10px;
+}
+
+.order-confirmation {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  gap: 10px;
+}
+
+.order-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.order-details ul {
+  list-style: none;
+}
+.order-details li {
+  padding: 10px;
+}
